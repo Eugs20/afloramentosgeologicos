@@ -22,7 +22,7 @@
 		#lg_geoce {
 			position: absolute;
 			right: 10px;
-			top: 363px;
+			top: 700px;
 			z-index: 100;
 		}
 		
@@ -54,7 +54,8 @@
 	<script src="../libs/plasio/js/laslaz.js"></script>
 
 	
-	<div class="potree_container" style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px; ">
+	<div class="potree_container" >
+		<div id="style= position: absolute; width: 100%; height: 100%; left: 0px; top: 0px"></div>
 		<div id="potree_render_area"></div>
 		<div id="potree_sidebar_container"> </div>
 	</div>
@@ -75,7 +76,7 @@
 		viewer.setEDLEnabled(false);
 		viewer.setBackground("gradient"); // ["skybox", "gradient", "black", "white"];
 		viewer.loadSettingsFromURL();
-		viewer.setDescription('Link para o <a target=_blank href="https://eugs20.github.io/afloramentosgeologicos/example/paredão"> Paredão</a></p>');
+		viewer.setDescription('Link para o <a target=_blank href="https://eugs20.github.io/afloramentosgeologicos/example/paredao.html"> Paredão</a></p>');
 		
 		viewer.loadGUI(() => {
 			viewer.setLanguage('pt-br');
